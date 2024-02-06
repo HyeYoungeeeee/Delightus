@@ -1,0 +1,1164 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1450">
+    <title>Delightus</title>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./fonts/pretendard.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="./css/sub2.css">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div id="header">
+        <div class="header_inner">
+            <h1>
+                <a href="./index.html"><img src="./images/main_logo.png" alt="메인로고"></a>
+            </h1>
+            <ul class="header_menu">
+                <li>
+                    <img src="./images/heart.png" alt="하트아이콘" class="heart_icon">
+                    <a href="./sub0.html">브랜드</a>
+                    <div class="sub">
+                        <ol>
+                            <li><a href="./sub0.html#2pg">브랜드 소개</a></li>
+                            <li><a href="./sub0.html#7pg">로고 소개</a></li>
+                            <li><a href="./sub0.html#9pg">오시는 길</a></li>
+                        </ol>
+                    </div>
+                </li>
+                <li>
+                    <img src="./images/heart.png" alt="하트아이콘" class="heart_icon">
+                    <a href="./sub1.html">메뉴</a>
+                    <div class="sub">
+                        <ol>
+                            <li><a href="./sub1.html">디저트</a></li>
+                            <li><a href="./sub2.html">음료</a></li>
+                        </ol>
+                    </div>
+                </li>
+                <li>
+                    <img src="./images/heart.png" alt="하트아이콘" class="heart_icon">
+                    <a href="./sub3.html">온라인샵</a>
+                    <div class="sub">
+                        <ol>
+                            <li><a href="./sub3.html#tab_2">머그잔</a></li>
+                            <li><a href="./sub3.html#tab3">텀블러</a></li>
+                            <li><a href="./sub3.html#tab4">커피용품</a></li>
+                            <li><a href="./sub3.html#tab5">기타</a></li>
+                        </ol>
+                    </div>
+                </li>
+                <li>
+                    <img src="./images/heart.png" alt="하트아이콘" class="heart_icon"><a href="./sub4.html">주문하기</a>
+                    <div class="sub">
+                        <ol>
+                            <li><a href="sub4.html#4thPage">예약픽업</a></li>
+                            <li><a href="sub4.html#4thPage/1" class="delivery_order">택배주문</a></li>
+                        </ol>
+                    </div>
+                </li>
+            </ul>
+        </div><!--header_inner-->
+    </div><!--header-->
+
+    <div id="rotate_box">
+        <div id="header_bg">
+            <div class="header_top">
+                <h1>Delightus' <span>Menu</span></h1>
+                <ul class="top_flex">
+                    <li>
+                        <img src="./images/heart.png" alt="하트아이콘" class="heart_icon2">
+                        <a href="./sub1.html">디저트</a>
+                    </li>
+                    <li>
+                        <img src="./images/heart.png" alt="하트아이콘" class="heart_icon3">
+                        <a href="./sub2.html">음료</a>
+                    </li>
+                </ul>
+
+                <div id="wrapper" class="new_best">
+                    <!--탭 메뉴 영역(우리가 실제로 클릭할 부분)
+                각각의 li안에 a태그의 아이디를 가진 tab이 보이는 원리이다.
+                -->
+                    <ul class="tabs">
+                        <li class="new_box">
+                            <img src="./images/sub_menu/bar.jpg" alt="호버바">
+                            <a href="#tab1">New</a>
+                        </li>
+                        <li class="best_box">
+                            <img src="./images/sub_menu/bar.jpg" alt="호버바">
+                            <a href="#tab2">Best</a>
+                        </li>
+                    </ul>
+
+                    <div class="tab_container">
+                        <div id="tab1" class="tab_content">
+                            <!--Content-->
+                            <div class="bg_flex">
+                                <a href="#" class="bg_box"><img src="./images/sub_menu/new_beverage.png"
+                                        alt="뉴이미지1"></a>
+                                <a href="#" class="bg_box"><img src="./images/sub_menu/new_beverage2.png"
+                                        alt="뉴이미지2"></a>
+                                <a href="#" class="bg_box"><img src="./images/sub_menu/new_beverage3.png"
+                                        alt="뉴이미지3"></a>
+                            </div>
+                            <div class="tab_position">
+                                <p>
+                                    딜라이트어스의 따끈따끈한 <br>
+                                    <b>신메뉴</b>를 소개합니다.
+                                </p>
+                                <h3>more <a href="#menu"><img src="./images/go_icon.png" alt="more아이콘"
+                                            class="go_btn"></a>
+                                </h3>
+                            </div>
+                        </div><!--tab1-->
+                        <div id="tab2" class="tab_content">
+                            <!--Content-->
+                            <div class="bg_flex">
+                                <a href="#" class="bg_box"><img src="./images/sub_menu/best_beverage.png"
+                                        alt="베스트이미지1"></a>
+                                <a href="#" class="bg_box"><img src="./images/sub_menu/best_beverage2.png"
+                                        alt="베스트이미지2"></a>
+                                <a href="#" class="bg_box"><img src="./images/sub_menu/best_beverage3.png"
+                                        alt="베스트이미지3"></a>
+                            </div>
+                            <div class="tab_position">
+                                <p>
+                                    딜라이트어스의 따끈따끈한 <br>
+                                    <b>인기메뉴</b>를 소개합니다.
+                                </p>
+                                <h3>more <a href="#menu"><img src="./images/go_icon.png" alt="more아이콘"
+                                            class="go_btn"></a>
+                                </h3>
+                            </div>
+                        </div><!--tab2-->
+                    </div><!--tab_container-->
+                </div><!--wrapper-->
+                <img src="./images/sub_menu/rotate_text.png" alt="돌아가는 텍스트" class="move_text">
+            </div><!--header_top-->
+        </div><!--header_bg-->
+
+        <div id="menu">
+
+            <div class="background">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <h1>Beverage</h1>
+
+            <div id="wrapper">
+                <ul class="tabs1">
+                    <li><a href="#tab_1">커피</a></li>
+                    <li><a href="#tab_2">스무디</a></li>
+                    <li><a href="#tab3">과일음료</a></li>
+                    <li><a href="#tab4">기타</a></li>
+                </ul>
+
+
+                <div class="tab_container1">
+                    <div id="tab_1" class="tab_content1"><!--첫번째 탭부분-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img beverage1">
+                                    <img src="./images/sub_menu/beverage1.png" alt="음료1">
+                                    <h4>#얼죽아 #원두커피 <br> 5,000원</h4>
+                                </div>
+                                <p class="p_color1">아메리카노</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box1-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img beverage2">
+                                    <img src="./images/sub_menu/beverage2.png" alt="음료2">
+                                    <h4>#아이스 #라떼 <br> 5,500원</h4>
+                                </div>
+                                <p class="p_color2">카페라떼</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box2-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img beverage3">
+                                    <img src="./images/sub_menu/beverage3.png" alt="음료3">
+                                    <h4>#바크라 #크림라떼 <br> 6,500원</h4>
+                                </div>
+                                <p class="p_color3">바닐라 크림 라떼</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box3-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img beverage4">
+                                    <img src="./images/sub_menu/beverage4.png" alt="음료4">
+                                    <h4>#초콜릿 #커피 <br> 6,000원</h4>
+                                </div>
+                                <p class="p_color4">카페모카</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box4-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img beverage5">
+                                    <img src="./images/sub_menu/beverage5.png" alt="음료5">
+                                    <h4>#녹차 #말차 <br> 6,200원</h4>
+                                </div>
+                                <p class="p_color5">녹차라떼</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box5-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img beverage6">
+                                    <img src="./images/sub_menu/beverage6.png" alt="음료6">
+                                    <h4>#슈크림 #바닐라빈 <br> 6,300원</h4>
+                                </div>
+                                <p class="p_color6">슈크림 라떼</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box6-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img beverage7">
+                                    <img src="./images/sub_menu/beverage7.png" alt="음료7">
+                                    <h4>#카라멜 #오렌지 <br> 6,600원</h4>
+                                </div>
+                                <p class="p_color7">오렌지 카라멜 라떼</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box7-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img beverage8">
+                                    <img src="./images/sub_menu/beverage8.png" alt="음료8">
+                                    <h4>#로투스 #시그니처 <br> 6,800원</h4>
+                                </div>
+                                <p class="p_color8">로투스 크림 라떼</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box8-->
+                    </div><!--tab1-->
+
+                    <div id="tab_2" class="tab_content1"><!--2번째 탭부분-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img smoothie1">
+                                    <img src="./images/sub_menu/smoothie1.png" alt="음료1">
+                                    <h4>#딸기 #스무디 <br> 6,800원</h4>
+                                </div>
+                                <p class="p_color1">프리미엄 딸기 스무디</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box1-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img smoothie2">
+                                    <img src="./images/sub_menu/smoothie2.png" alt="음료2">
+                                    <h4>#벚꽃시즌 #스페셜스무디 <br> 7,500원</h4>
+                                </div>
+                                <p class="p_color2">체리블라썸 스페셜 스무디</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box2-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img smoothie3">
+                                    <img src="./images/sub_menu/smoothie3.png" alt="음료3">
+                                    <h4>#벚꽃 #체리맛 <br> 7,000원</h4>
+                                </div>
+                                <p class="p_color3">체리블라썸 스무디</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box3-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img smoothie4">
+                                    <img src="./images/sub_menu/smoothie4.png" alt="음료4">
+                                    <h4>#커피샷 #스무디 <br> 7,300원</h4>
+                                </div>
+                                <p class="p_color4">체리블라썸 라떼 스무디</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box4-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img smoothie5">
+                                    <img src="./images/sub_menu/smoothie5.png" alt="음료5">
+                                    <h4>#기본 #딸기스무디 <br> 6,000원</h4>
+                                </div>
+                                <p class="p_color5">딸기 스무디</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box5-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img smoothie6">
+                                    <img src="./images/sub_menu/smoothie6.png" alt="음료6">
+                                    <h4>#파르페 #딸기휘핑 <br> 6,500원</h4>
+                                </div>
+                                <p class="p_color6">딸기 파르페</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box6-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img smoothie7">
+                                    <img src="./images/sub_menu/smoothie7.png" alt="음료7">
+                                    <h4>#후르츠 #상큼 <br> 6,800원</h4>
+                                </div>
+                                <p class="p_color7">후르츠 스무디</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box7-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img smoothie8">
+                                    <img src="./images/sub_menu/smoothie8.png" alt="음료8">
+                                    <h4>#오리지널 #망고 <br> 6,800원</h4>
+                                </div>
+                                <p class="p_color8">오리지널 망고 스무디</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box8-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img smoothie9">
+                                    <img src="./images/sub_menu/smoothie9.png" alt="음료9">
+                                    <h4>#체리 펄 #스무디 <br> 7,000원</h4>
+                                </div>
+                                <p class="p_color9">체리 펄 스무디</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box9-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img smoothie10">
+                                    <img src="./images/sub_menu/smoothie10.png" alt="음료10">
+                                    <h4>#파인애플 펄 #스무디 <br> 7,000원</h4>
+                                </div>
+                                <p class="p_color10">파인애플 펄 스무디</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box10-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img smoothie11">
+                                    <img src="./images/sub_menu/smoothie11.png" alt="음료11">
+                                    <h4>#블루베리 펄 #스무디 <br> 7,000원</h4>
+                                </div>
+                                <p class="p_color11">블루베리 펄 스무디</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box11-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img smoothie12">
+                                    <img src="./images/sub_menu/smoothie12.png" alt="음료12">
+                                    <h4>#키위 펄 #스무디 <br> 7,000원</h4>
+                                </div>
+                                <p class="p_color12">키위 펄 스무디</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box12-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img smoothie13">
+                                    <img src="./images/sub_menu/smoothie13.png" alt="음료13">
+                                    <h4>#프레즐 #초코 <br> 8,000원</h4>
+                                </div>
+                                <p class="p_color13">프리미엄 프레즐 스무디</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box13-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img smoothie14">
+                                    <img src="./images/sub_menu/smoothie14.png" alt="음료14">
+                                    <h4>#카라멜 #드리즐 <br> 6,300원</h4>
+                                </div>
+                                <p class="p_color14">카라멜 스무디</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box14-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img smoothie15">
+                                    <img src="./images/sub_menu/smoothie15.png" alt="음료15">
+                                    <h4>#커피스무디 #우유스무디 <br> 6,600원</h4>
+                                </div>
+                                <p class="p_color15">밀크 커피 스무디</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box15-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img smoothie16">
+                                    <img src="./images/sub_menu/smoothie16.png" alt="음료16">
+                                    <h4>#모카 #쇼콜라 <br> 6,800원</h4>
+                                </div>
+                                <p class="p_color16">모카 레이어 스무디</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box16-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img smoothie17">
+                                    <img src="./images/sub_menu/smoothie17.png" alt="음료17">
+                                    <h4>#쿠앤크 #초코드리즐 <br> 6,800원</h4>
+                                </div>
+                                <p class="p_color17">쿠앤크 스무디</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box17-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img smoothie18">
+                                    <img src="./images/sub_menu/smoothie18.png" alt="음료18">
+                                    <h4>#초콜릿 #스무디 <br> 6,500원</h4>
+                                </div>
+                                <p class="p_color18">초콜릿 스무디</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box18-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img smoothie19">
+                                    <img src="./images/sub_menu/smoothie19.png" alt="음료19">
+                                    <h4>#토피넛 #고소함 <br> 6,500원</h4>
+                                </div>
+                                <p class="p_color19">토피넛 스무디</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box19-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img smoothie20">
+                                    <img src="./images/sub_menu/smoothie20.png" alt="음료20">
+                                    <h4>#카라멜드리즐 #바나나 <br> 6,900원</h4>
+                                </div>
+                                <p class="p_color20">바나나 카라멜 스무디</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box20-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img smoothie21">
+                                    <img src="./images/sub_menu/smoothie21.png" alt="음료21">
+                                    <h4>#키위 #메론드리즐 <br> 6,900원</h4>
+                                </div>
+                                <p class="p_color21">메론 키위 스무디</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box21-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img smoothie22">
+                                    <img src="./images/sub_menu/smoothie22.png" alt="음료22">
+                                    <h4>#말차 #스무디 <br> 6,300원</h4>
+                                </div>
+                                <p class="p_color22">말차 스무디</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box22-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img smoothie23">
+                                    <img src="./images/sub_menu/smoothie23.png" alt="음료23">
+                                    <h4>#피스타치오 #스무디 <br> 6,300원</h4>
+                                </div>
+                                <p class="p_color23">피스타치오 스무디</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box23-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img smoothie24">
+                                    <img src="./images/sub_menu/smoothie24.png" alt="음료24">
+                                    <h4>#블루레몬 #새콤달콤 <br> 6,800원</h4>
+                                </div>
+                                <p class="p_color24">블루 레몬 스무디</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box24-->
+                    </div><!--tab2-->
+
+                    <div id="tab3" class="tab_content1"><!--3번째 탭부분-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img juice1">
+                                    <img src="./images/sub_menu/juice1.png" alt="음료1">
+                                    <h4>#딸기 #에이드 <br> 6,300원</h4>
+                                </div>
+                                <p class="p_color1">딸기 에이드</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box1-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img juice2">
+                                    <img src="./images/sub_menu/juice2.png" alt="음료2">
+                                    <h4>#딸기레몬 #에이드 <br> 6,300원</h4>
+                                </div>
+                                <p class="p_color2">핑크 소다 에이드</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box2-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img juice3">
+                                    <img src="./images/sub_menu/juice3.png" alt="음료3">
+                                    <h4>#딸기 #레모네이드 <br> 6,300원</h4>
+                                </div>
+                                <p class="p_color3">딸기 리프레셔</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box3-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img juice4">
+                                    <img src="./images/sub_menu/juice4.png" alt="음료4">
+                                    <h4>#오렌지 #자몽 <br> 6,000원</h4>
+                                </div>
+                                <p class="p_color4">오렌지 선라이즈</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box4-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img juice5">
+                                    <img src="./images/sub_menu/juice5.png" alt="음료5">
+                                    <h4>#수박 #에이드 <br> 6,000원</h4>
+                                </div>
+                                <p class="p_color5">수박 에이드</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box5-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img juice6">
+                                    <img src="./images/sub_menu/juice6.png" alt="음료6">
+                                    <h4>#자몽 #에이드 <br> 6,000원</h4>
+                                </div>
+                                <p class="p_color6">자몽 에이드</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box6-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img juice7">
+                                    <img src="./images/sub_menu/juice7.png" alt="음료7">
+                                    <h4>#오렌지 #에이드 <br> 6,000원</h4>
+                                </div>
+                                <p class="p_color7">오렌지 에이드</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box7-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img juice8">
+                                    <img src="./images/sub_menu/juice8.png" alt="음료8">
+                                    <h4>#패션후르츠 #열대과일 <br> 6,200원</h4>
+                                </div>
+                                <p class="p_color8">패션후르츠 에이드</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box8-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img juice9">
+                                    <img src="./images/sub_menu/juice9.png" alt="음료9">
+                                    <h4>#복숭아 #에이드 <br> 6,200원</h4>
+                                </div>
+                                <p class="p_color9">복숭아 에이드</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box9-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img juice10">
+                                    <img src="./images/sub_menu/juice10.png" alt="음료10">
+                                    <h4>#라임 #민트 <br> 6,000원</h4>
+                                </div>
+                                <p class="p_color10">라임 민트 에이드</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box10-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img juice11">
+                                    <img src="./images/sub_menu/juice11.png" alt="음료11">
+                                    <h4>#레몬샤베트 #사이다 <br> 6,100원</h4>
+                                </div>
+                                <p class="p_color11">레몬 셔벗 에이드</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box11-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img juice12">
+                                    <img src="./images/sub_menu/juice12.png" alt="음료12">
+                                    <h4>#청포도 #에이드 <br> 6,000원</h4>
+                                </div>
+                                <p class="p_color12">청포도 에이드</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box12-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img juice13">
+                                    <img src="./images/sub_menu/juice13.png" alt="음료13">
+                                    <h4>#레모네이드 #오이토핑 <br> 6,000원</h4>
+                                </div>
+                                <p class="p_color13">레모네이드</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box13-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img juice14">
+                                    <img src="./images/sub_menu/juice14.png" alt="음료14">
+                                    <h4>#파인애플 #주스 <br> 6,300원</h4>
+                                </div>
+                                <p class="p_color14">파인애플 생과일 주스</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box14-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img juice15">
+                                    <img src="./images/sub_menu/juice15.png" alt="음료15">
+                                    <h4>#바나나 #주스 <br> 6,300원</h4>
+                                </div>
+                                <p class="p_color15">바나나 생과일 주스</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box15-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img juice16">
+                                    <img src="./images/sub_menu/juice16.png" alt="음료16">
+                                    <h4>#생딸기절임 #말차 <br> 6,800원</h4>
+                                </div>
+                                <p class="p_color16">생딸기 말차 라떼</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box16-->
+                    </div><!--tab3-->
+
+                    <div id="tab4" class="tab_content1"><!--4번째 탭부분-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img glass1">
+                                    <img src="./images/sub_menu/glass1.png" alt="음료1">
+                                    <h4>#살구 #요거트 <br> 5,000원</h4>
+                                </div>
+                                <p class="p_color1">살구 요거트</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box1-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img glass2">
+                                    <img src="./images/sub_menu/glass2.png" alt="음료2">
+                                    <h4>#레몬 #요거트 <br> 5,000원</h4>
+                                </div>
+                                <p class="p_color2">레몬 요거트</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box2-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img glass3">
+                                    <img src="./images/sub_menu/glass3.png" alt="음료3">
+                                    <h4>#망고 #요거트 <br> 5,000원</h4>
+                                </div>
+                                <p class="p_color3">망고 요거트</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box3-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img glass4">
+                                    <img src="./images/sub_menu/glass4.png" alt="음료4">
+                                    <h4>#망고맛 #푸딩 <br> 4,800원</h4>
+                                </div>
+                                <p class="p_color4">망고 푸딩</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box4-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img glass5">
+                                    <img src="./images/sub_menu/glass5.png" alt="음료5">
+                                    <h4>#체리블라썸 #말차 <br> 5,000원</h4>
+                                </div>
+                                <p class="p_color5">체리블라썸 말차 푸딩</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box5-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img glass6">
+                                    <img src="./images/sub_menu/glass6.png" alt="음료6">
+                                    <h4>#무화과 #요거트 <br> 5,300원</h4>
+                                </div>
+                                <p class="p_color6">무화과 요거트</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box6-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img glass7">
+                                    <img src="./images/sub_menu/glass7.png" alt="음료7">
+                                    <h4>#딸기 #요거트 <br> 5,300원</h4>
+                                </div>
+                                <p class="p_color7">딸기 요거트</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box7-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img glass8">
+                                    <img src="./images/sub_menu/glass8.png" alt="음료8">
+                                    <h4>#딸기바나나 #초콜릿 <br> 5,500원</h4>
+                                </div>
+                                <p class="p_color8">딸바 쇼콜라</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box8-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img glass9">
+                                    <img src="./images/sub_menu/glass9.png" alt="홀케이크9">
+                                    <h4>#초코크림 #견과류 <br> 5,500원</h4>
+                                </div>
+                                <p class="p_color9">초코 크림 크런치</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box9-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img glass10">
+                                    <img src="./images/sub_menu/glass10.png" alt="홀케이크10">
+                                    <h4>#딸기 #글라스디저트 <br> 5,200원</h4>
+                                </div>
+                                <p class="p_color10">딸기샌드</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box10-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img glass11">
+                                    <img src="./images/sub_menu/glass11.png" alt="홀케이크11">
+                                    <h4>#딸기요거트 #견과류 <br> 5,500원</h4>
+                                </div>
+                                <p class="p_color11">딸기 요거트 크런치</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box11-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img glass12">
+                                    <img src="./images/sub_menu/glass12.png" alt="홀케이크12">
+                                    <h4>#생딸기 #생크림 <br> 5,000원</h4>
+                                </div>
+                                <p class="p_color12">딸기크림</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box12-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img glass13">
+                                    <img src="./images/sub_menu/glass13.png" alt="홀케이크13">
+                                    <h4>#딸기가득 #파르페 <br> 6,000원</h4>
+                                </div>
+                                <p class="p_color13">딸기 글라스</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box13-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img glass14">
+                                    <img src="./images/sub_menu/glass14.png" alt="홀케이크14">
+                                    <h4>#키위가득 #파르페 <br> 6,000원</h4>
+                                </div>
+                                <p class="p_color14">키위 글라스</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box14-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img glass15">
+                                    <img src="./images/sub_menu/glass15.png" alt="홀케이크15">
+                                    <h4>#샤베트 #세가지 맛 <br> 6,000원</h4>
+                                </div>
+                                <p class="p_color15">레인보우 샤베트</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box15-->
+                        <div class="menu_box">
+                            <a href="./sub4.html#5thPage">
+                                <div class="menu_img glass16">
+                                    <img src="./images/sub_menu/glass16.png" alt="홀케이크16">
+                                    <h4>#아이스크림 #두가지 맛 <br> 5,800원</h4>
+                                </div>
+                                <p class="p_color16">더블 아이스크림</p>
+                            </a>
+                            <ol class="byuing">
+                                <li class="button3"><a href="./sub4.html#5thPage">구매하기</a></li>
+                                <li><img src="./images/sub_menu/cart.png" alt="장바구니" class="cart_icon"></li>
+                                <li><img src="./images/sub_menu/hart.png" alt="찜" class="hart_icon_"></li>
+                            </ol>
+                        </div><!--menu_box16-->
+                    </div><!--tab4-->
+                </div><!--tab_container-->
+            </div><!--wrapper-->
+        </div><!--menu-->
+    </div><!--rotate_box-->
+
+    <div id="footer">
+        <div class="footer_inner">
+            <a href="./index.html"><img src="./images/sub_logo2.png" alt="서브로고" class="sub_logo"></a>
+            <a href="./index.html"><img src="./images/sub_logo.png" alt="서브로고" class="sub_logo2"></a>
+            <ul class="f_flex1">
+                <li class="f_content1">개인정보처리방침</li>
+                <li class="f_content2">이용약관</li>
+                <li class="f_content3">고객센터</li>
+                <li class="f_content4">사업자정보확인</li>
+            </ul>
+            <ol class="f_flex2">
+                <li><a href="https://www.instagram.com/" target="_blank"><img src="./images/icon1.png" alt="푸터아이콘1"></a>
+                </li>
+                <li><a href="https://www.facebook.com/?locale=ko_KR" target="_blank"><img src="./images/icon2.png"
+                            alt="푸터아이콘2"></a>
+                </li>
+                <li><a href="https://section.blog.naver.com/BlogHome.naver?directoryNo=0&currentPage=1&groupId=0"
+                        target="_blank"><img src="./images/icon3.png" alt="푸터아이콘3"></a>
+                </li>
+            </ol>
+            <p>주소 : 부산시 사랑구 행복동 1004번길 10-04 1층 </p>
+            <ul class="f_flex3">
+                <li>대표: 박혜영</li>
+                <li>사업자등록번호 : 123-45-6789</li>
+                <li>전화 : 9876-5432</li>
+                <li>이메일 : delightus@delight.com</li>
+            </ul>
+            <a href="#header_bg" class="top_btn_"><img src="./images/top_btn.png" alt="탑버튼"></a>
+        </div>
+    </div><!--footer-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!--제이쿼리 라이브러리파일-->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <!--탭 제이쿼리-->
+    <script src="./js/tab2.js"></script>
+</body>
+
+</html>

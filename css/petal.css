@@ -1,0 +1,142 @@
+@chrset"utf-8";
+
+#coupon {
+  position: relative;
+}
+
+.petal1 {
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  z-index: 2;
+  width: 100%;
+  max-width: 120px;
+}
+
+.petal1 img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  -webkit-animation: sakura01 10s forwards infinite;
+  animation: sakura01 10s forwards infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+}
+
+.petal1>img {
+  width: 100%;
+  height: auto;
+}
+
+@-webkit-keyframes sakura01 {
+  0% {
+    top: -270px;
+    opacity: 0;
+    left: -50px;
+    transform: rotateY(0);
+  }
+
+  20% {
+    opacity: 1;
+  }
+
+  30% {
+    left: 50px;
+    opacity: 1;
+  }
+
+  70% {
+    left: 0px;
+    top: 0px;
+    opacity: 1;
+    filter: drop-shadow(4px 4px 14px rgba(102, 102, 102, 0));
+  }
+
+  80% {
+    top: 0px;
+    left: 0px;
+    transform: rotateY(360deg);
+    filter: drop-shadow(4px 4px 14px rgba(102, 102, 102, 0.15));
+    opacity: 1;
+  }
+
+  100% {
+    top: 0px;
+    left: 0px;
+    transform: rotateY(360deg);
+    filter: drop-shadow(4px 4px 14px rgba(102, 102, 102, 0.15));
+    opacity: 0;
+  }
+}
+
+.petal2 {
+  position: absolute;
+  top: 1000px;
+  left: 800px;
+  z-index: 2;
+  width: 100%;
+  max-width: 100px;
+}
+
+.petal2 img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  -webkit-animation: sakura02 14s forwards infinite;
+  animation: sakura02 14s forwards infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+}
+
+.petal2>img {
+  width: 100%;
+  height: auto;
+}
+
+@-webkit-keyframes sakura02 {
+  0% {
+    top: -400px;
+    opacity: 0;
+    left: -100px;
+    transform: rotateY(0);
+  }
+
+  20% {
+    opacity: 1;
+  }
+
+  30% {
+    left: 100px;
+    opacity: 1;
+  }
+
+  50% {
+    left: -200px;
+    opacity: 1;
+  }
+
+  70% {
+    left: 0px;
+    top: 0px;
+    opacity: 1;
+    filter: drop-shadow(4px 4px 14px rgba(102, 102, 102, 0));
+  }
+
+  80% {
+    top: 0px;
+    left: 0px;
+    transform: rotateY(360deg);
+    filter: drop-shadow(4px 4px 14px rgba(102, 102, 102, 0.15));
+    opacity: 1;
+  }
+
+  100% {
+    top: 0px;
+    left: 0px;
+    transform: rotateY(360deg);
+    filter: drop-shadow(4px 4px 14px rgba(102, 102, 102, 0.15));
+    opacity: 0;
+  }
+}
